@@ -1,0 +1,19 @@
+Package: PrettyCols
+Title: Pretty colour palettes
+Version: 0.0.1
+Authors@R: 
+    person(given = "Nicola",
+           family = "Rennie",
+           role = c("aut", "cre"),
+           email = "nrennie35@gmail.com")
+Description: Defines aesthetic colour palettes.
+License: GPL (>= 2)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Depends: 
+  R (>= 3.6)
+Imports: 
+  ggplot2,
+  graphics,
+  grDevices

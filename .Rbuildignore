@@ -1,0 +1,5 @@
+^PrettyCols\.Rproj$
+^\.Rproj\.user$
+.lintr
+.github
+images/
