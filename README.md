@@ -1,4 +1,4 @@
-# PrettyCols <img src="PrettyCols.png" align="right" width="120" />
+# PrettyCols <img src="https://github.com/nrennie/PrettyCols/blob/main/man/figures/PrettyCols.png?raw=true" align="right" width="120" />
 
 {PrettyCols} is an R package containing aesthetically pleasing colour palettes. 
 
@@ -22,12 +22,13 @@ remotes::install_github("nrennie/PrettyCols")
 ```
 prettycols("MoodyBlues", n = 7, type = "discrete")
 ```
-<img src="/images/MoodyBlues_d.jpeg?raw=true" width="30%">
+<img src="https://github.com/nrennie/PrettyCols/blob/main/man/figures/MoodyBlues_d.jpeg?raw=true" width="30%">
+
 
 ```
 prettycols("MoodyBlues", n = 100, type = "continuous")
 ```
-<img src="/images/MoodyBlues_c.jpeg?raw=true" width="30%">
+<img src="https://github.com/nrennie/PrettyCols/blob/main/man/figures/MoodyBlues_c.jpeg?raw=true" width="30%">
 
 ## Using with {ggplot2}
 
@@ -40,8 +41,7 @@ ggplot(data = df,
   geom_col() +
   scale_fill_pretty_d(name = "MoodyBlues")
 ```
-<img src="/images/ggplot2_example.jpeg?raw=true" width="30%">
-
+<img src="https://github.com/nrennie/PrettyCols/blob/main/man/figures/ggplot2_example.jpeg?raw=true" width="30%">
 
 
 
