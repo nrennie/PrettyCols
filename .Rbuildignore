@@ -2,5 +2,7 @@
 ^\.Rproj\.user$
 .lintr
 .github
-images/
-PrettyCols.png
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^\.github$
