@@ -1,4 +1,4 @@
-# PrettyCols <img src="man/figures/PrettyCols.png" align="right" width="120" />
+# PrettyCols <img src="man/figures/logo.png" align="right" width="120" />
 
 {PrettyCols} is an R package containing aesthetically pleasing colour palettes. 
 
