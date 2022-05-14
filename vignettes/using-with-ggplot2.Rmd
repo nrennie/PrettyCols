@@ -1,0 +1,66 @@
+---
+title: "Using with {ggplot2}"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{using-with-ggplot2}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+Install using:
+``` {r, eval = FALSE}
+devtools::install_github("nrennie/PrettyCols")
+```
+or
+``` {r, eval = FALSE}
+remotes::install_github("nrennie/PrettyCols")
+```
+
+Then load into R:
+```{r}
+library(PrettyCols)
+```
+
+Set up a simple data frame to use for an example plot:
+```{r}
+library(ggplot2)
+df <- data.frame(type = c("A", "B", "C"), 
+                 value = c(1, 2, 3))
+```
+
+To change the fill or colour for discrete variables:
+```{r, fig.show="hold", out.width = "47%"}
+ggplot(data = df, 
+       mapping = aes(x = type, y = value, fill = type)) +
+  geom_col() +
+  scale_fill_pretty_d(name = "MoodyBlues")
+
+ggplot(data = df, 
+       mapping = aes(x = type, y = value, colour = type)) +
+  geom_col(size = 2, fill = "white") +
+  scale_colour_pretty_d(name = "MoodyBlues")
+```
+
+To change the fill or colour for continuous variables:
+```{r, fig.show="hold", out.width = "47%"}
+ggplot(data = df, 
+       mapping = aes(x = type, y = value, fill = value)) +
+  geom_col() +
+  scale_fill_pretty_c(name = "PrettyPurples")
+
+ggplot(data = df, 
+       mapping = aes(x = type, y = value, colour = value)) +
+  geom_col(size = 2, fill = "white") +
+  scale_colour_pretty_c(name = "PrettyPurples", direction = -1)
+```
+
+
+
+
