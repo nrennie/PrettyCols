@@ -21,5 +21,6 @@ Imports:
 URL: https://nrennie.github.io/PrettyCols/
 Suggests: 
     knitr,
+    markdown,
     rmarkdown
 VignetteBuilder: knitr
