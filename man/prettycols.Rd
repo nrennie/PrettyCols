@@ -7,8 +7,7 @@
 prettycols(name, n, type = "discrete", direction = 1)
 }
 \arguments{
-\item{name}{Name of Palette. Choices are:
-\code{MoodyBlues}}
+\item{name}{Name of Palette. Run \code{names(PrettyColsPalettes)} to view options.}
 
 \item{n}{Number of desired colors. If number of requested colors is beyond the scope of the palette,
 colors are automatically interpolated. If n is not provided, the length of the palette is used.}

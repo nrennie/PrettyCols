@@ -1,0 +1,46 @@
+---
+title: "Viewing Palettes"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{viewing-palettes}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+Install using:
+``` {r, eval = FALSE}
+devtools::install_github("nrennie/PrettyCols")
+```
+or
+``` {r, eval = FALSE}
+remotes::install_github("nrennie/PrettyCols")
+```
+
+Then load into R:
+```{r}
+library(PrettyCols)
+```
+
+To see the names of all available palettes, run:
+```{r}
+names(PrettyColsPalettes)
+```
+
+To see the colours in a specific palette, use the `prettycols()` function:
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Tangerines")
+```
+
+By default a discrete palette showing all colours is displayed. Setting `type = "continuous"` displays a continuous palette, changing `n` changes the number of colours, and switching `direction = -1` reverses the order of colours. For example:
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Tangerines", n = 50, type = "continuous", direction = -1)
+```
+

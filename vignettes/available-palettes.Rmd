@@ -1,0 +1,44 @@
+---
+title: "Available Palettes"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{available-palettes}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+Install using:
+``` {r, eval = FALSE}
+devtools::install_github("nrennie/PrettyCols")
+```
+or
+``` {r, eval = FALSE}
+remotes::install_github("nrennie/PrettyCols")
+```
+
+Then load into R:
+```{r}
+library(PrettyCols)
+```
+
+### Moody Blues
+```{r, out.width = "60%", fig.align="center"}
+prettycols("MoodyBlues")
+```
+
+### Pretty Purples
+```{r, out.width = "60%", fig.align="center"}
+prettycols("PrettyPurples")
+```
+
+### Tangerines
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Tangerines")
+```

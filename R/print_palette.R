@@ -14,7 +14,7 @@ print.palette <- function(x, ...) {
        border = NA)
   graphics::text((n + 1) / 2, 1,
        labels = attr(x, "name"),
-       cex = 4,
+       cex = 2.5,
        family = "sans",
        col = grDevices::rgb(1, 1, 1, 1))
 }

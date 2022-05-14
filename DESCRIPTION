@@ -1,6 +1,6 @@
 Package: PrettyCols
 Title: Pretty colour palettes
-Version: 0.0.2
+Version: 0.0.3
 Authors@R: 
     person(given = "Nicola",
            family = "Rennie",
@@ -16,5 +16,10 @@ Depends:
 Imports: 
   ggplot2,
   graphics,
-  grDevices
+  grDevices, 
+  knitr,
+  markdown,
+  rmarkdown,
+  plotwidgets
 URL: https://nrennie.github.io/PrettyCols/
+VignetteBuilder: knitr

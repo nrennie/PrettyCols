@@ -7,7 +7,7 @@
 scale_fill_pretty_c(name, direction = 1)
 }
 \arguments{
-\item{name}{Name of Palette. Choices are: \code{MoodyBlues}}
+\item{name}{Name of Palette. Run \code{names(PrettyColsPalettes)} to view options.}
 
 \item{direction}{Sets order of colors. Default palette is 1. If direction is -1, palette color order is reversed}
 }

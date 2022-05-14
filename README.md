@@ -15,37 +15,4 @@ or
 remotes::install_github("nrennie/PrettyCols")
 ```
 
-## Available palettes
-
-### Moody Blues (`"MoodyBlues"`)
-
-```
-prettycols("MoodyBlues", n = 7, type = "discrete")
-```
-<img src="https://github.com/nrennie/PrettyCols/blob/main/man/figures/MoodyBlues_d.jpeg?raw=true" width="30%">
-
-
-```
-prettycols("MoodyBlues", n = 100, type = "continuous")
-```
-<img src="https://github.com/nrennie/PrettyCols/blob/main/man/figures/MoodyBlues_c.jpeg?raw=true" width="30%">
-
-## Using with {ggplot2}
-
-```
-library(ggplot2)
-df <- data.frame(type = c("A", "B", "C"), 
-                 value = c(1, 2, 3))
-ggplot(data = df, 
-       mapping = aes(x = type, y = value, fill = type)) +
-  geom_col() +
-  scale_fill_pretty_d(name = "MoodyBlues")
-```
-<img src="https://github.com/nrennie/PrettyCols/blob/main/man/figures/ggplot2_example.jpeg?raw=true" width="30%">
-
-
-
-
-
-
-
+See [nrennie.github.io/PrettyCols](https://nrennie.github.io/PrettyCols/) for full documentation.
