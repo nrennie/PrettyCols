@@ -2,6 +2,8 @@
 
 S3method(print,palette)
 export(PrettyColsPalettes)
+export(complementary_color)
+export(complementary_colour)
 export(prettycols)
 export(scale_color_pretty_c)
 export(scale_color_pretty_d)
