@@ -10,6 +10,18 @@
     <loc>https://nrennie.github.io/PrettyCols/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://nrennie.github.io/PrettyCols/articles/available-palettes.html</loc>
+  </url>
+  <url>
+    <loc>https://nrennie.github.io/PrettyCols/articles/index.html</loc>
+  </url>
+  <url>
+    <loc>https://nrennie.github.io/PrettyCols/articles/using-with-ggplot2.html</loc>
+  </url>
+  <url>
+    <loc>https://nrennie.github.io/PrettyCols/articles/viewing-palettes.html</loc>
+  </url>
+  <url>
     <loc>https://nrennie.github.io/PrettyCols/authors.html</loc>
   </url>
   <url>
@@ -20,6 +32,12 @@
   </url>
   <url>
     <loc>https://nrennie.github.io/PrettyCols/reference/PrettyColsPalettes.html</loc>
+  </url>
+  <url>
+    <loc>https://nrennie.github.io/PrettyCols/reference/complementary_color.html</loc>
+  </url>
+  <url>
+    <loc>https://nrennie.github.io/PrettyCols/reference/complementary_colour.html</loc>
   </url>
   <url>
     <loc>https://nrennie.github.io/PrettyCols/reference/index.html</loc>

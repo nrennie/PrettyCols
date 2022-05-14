@@ -10,7 +10,7 @@
     
     <a class="navbar-brand me-2" href="../index.html">PrettyCols</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.2</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.3</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,6 +20,14 @@
     <div id="navbar" class="collapse navbar-collapse ms-3">
       <ul class="navbar-nav me-auto"><li class="active nav-item">
   <a class="nav-link" href="../reference/index.html">Reference</a>
+</li>
+<li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-articles">Articles</a>
+  <div class="dropdown-menu" aria-labelledby="dropdown-articles">
+    <a class="dropdown-item" href="../articles/available-palettes.html">Available Palettes</a>
+    <a class="dropdown-item" href="../articles/using-with-ggplot2.html">Using with {ggplot2}</a>
+    <a class="dropdown-item" href="../articles/viewing-palettes.html">Viewing Palettes</a>
+  </div>
 </li>
 <li class="nav-item">
   <a class="nav-link" href="../news/index.html">Changelog</a>
@@ -51,7 +59,7 @@
     <div class="section level2">
     <h2 id="arguments">Arguments<a class="anchor" aria-label="anchor" href="#arguments"></a></h2>
     <dl><dt>name</dt>
-<dd><p>Name of Palette. Choices are: <code>MoodyBlues</code></p></dd>
+<dd><p>Name of Palette. Run <code>names(PrettyColsPalettes)</code> to view options.</p></dd>
 <dt>direction</dt>
 <dd><p>Sets order of colors. Default palette is 1. If direction is -1, palette color order is reversed</p></dd>
 </dl></div>
