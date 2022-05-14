@@ -1,7 +1,6 @@
 #' Generates the colour palettes
 #'
-#' @param name Name of Palette. Choices are:
-#' \code{MoodyBlues}
+#' @param name Name of Palette. Run \code{names(PrettyColsPalettes)} to view options.
 #' @param n Number of desired colors. If number of requested colors is beyond the scope of the palette,
 #' colors are automatically interpolated. If n is not provided, the length of the palette is used.
 #' @param type Either "continuous" or "discrete". Use continuous if you want to automatically
