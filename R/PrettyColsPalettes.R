@@ -11,7 +11,7 @@ PrettyColsPalettes <- list(
   Purples = list(c("#432263", "#502876", "#5d2f89", "#6a359c", "#773baf", "#8444c0", "#9057c6"),
                        c(1, 2, 3, 4, 5, 6, 7),
                        "seq"),
-  Tangerines = list(c("#de7a00", "#F28500", "#FF9B21", "#FFB04F", "#FFC47D", "#ffd6a3", "#9057c6"),
+  Tangerines = list(c("#de7a00", "#F28500", "#FF9B21", "#FFB04F", "#FFC47D", "#ffd6a3", "#ffd29c"),
                     c(1, 2, 3, 4, 5, 6, 7),
                     "seq"),
   Greens = list(c("#416322", "#4e7628", "#5a892f", "#679c35", "#74af3b", "#80c044", "#8dc657"),
@@ -37,13 +37,13 @@ PrettyColsPalettes <- list(
                      c(1, 2, 3, 4, 5, 6, 7, 8, 9),
                      "div"),
   # qualitative palettes
-  Bold = list(c("#6497b1", "#432263", "#de7a00", "#679c35", "#cd1076"),
+  Bold = list(c("#6497b1", "#6a359c", "#FFB04F", "#679c35", "#cd1076"),
                  c(1, 2, 3, 4, 5),
                  "qual"),
-  Dark = list(c("#436f85", "#6a359c", "#FFB04F", "#416322", "#860a4d"),
+  Dark = list(c("#436f85", "#432263", "#de7a00", "#416322", "#860a4d"),
               c(1, 2, 3, 4, 5),
               "qual"),
-  Light = list(c("#97b9cb", "#9057c6", "#9057c6", "#8dc657", "#f03a9c"),
+  Light = list(c("#97b9cb", "#9057c6", "#ffd29c", "#8dc657", "#f03a9c"),
               c(1, 2, 3, 4, 5),
               "qual")
   )
