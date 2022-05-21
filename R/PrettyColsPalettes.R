@@ -45,5 +45,8 @@ PrettyColsPalettes <- list(
               "qual"),
   Light = list(c("#97b9cb", "#9057c6", "#ffe1bd", "#8dc657", "#f03a9c"),
               c(1, 2, 3, 4, 5),
+              "qual"),
+  Neon = list(c("#ff9062", "#fd6598", "#cb64c0", "#3294dd", "#75fb8a", "#d0eb60"),
+              c(1, 2, 3, 4, 5, 6),
               "qual")
   )
