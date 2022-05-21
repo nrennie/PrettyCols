@@ -1,3 +1,7 @@
+## PrettyCols 0.0.5 2022_05_21
+
+* update pkgdown site
+
 ## PrettyCols 0.0.4 2022_05_21
 
 * add new palettes

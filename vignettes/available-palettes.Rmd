@@ -98,3 +98,9 @@ prettycols("Light")
 ```{r, out.width = "60%", fig.align="center"}
 prettycols("Dark")
 ```
+
+### Neon
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Neon")
+```
+

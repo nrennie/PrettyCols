@@ -1,6 +1,6 @@
 Package: PrettyCols
 Title: Pretty colour palettes
-Version: 0.0.4
+Version: 0.0.5
 Authors@R: 
     person(given = "Nicola",
            family = "Rennie",
@@ -22,5 +22,6 @@ Suggests:
   knitr,
   markdown,
   rmarkdown
+Config/Needs/website: nrennie/nrenniepkgdown
 URL: https://nrennie.github.io/PrettyCols/
 VignetteBuilder: knitr
