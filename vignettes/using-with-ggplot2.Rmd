@@ -40,12 +40,12 @@ To change the fill or colour for discrete variables:
 ggplot(data = df, 
        mapping = aes(x = type, y = value, fill = type)) +
   geom_col() +
-  scale_fill_pretty_d(name = "MoodyBlues")
+  scale_fill_pretty_d(name = "Blues")
 
 ggplot(data = df, 
        mapping = aes(x = type, y = value, colour = type)) +
   geom_col(size = 2, fill = "white") +
-  scale_colour_pretty_d(name = "MoodyBlues")
+  scale_colour_pretty_d(name = "Blues")
 ```
 
 To change the fill or colour for continuous variables:
@@ -53,12 +53,12 @@ To change the fill or colour for continuous variables:
 ggplot(data = df, 
        mapping = aes(x = type, y = value, fill = value)) +
   geom_col() +
-  scale_fill_pretty_c(name = "PrettyPurples")
+  scale_fill_pretty_c(name = "Purples")
 
 ggplot(data = df, 
        mapping = aes(x = type, y = value, colour = value)) +
   geom_col(size = 2, fill = "white") +
-  scale_colour_pretty_c(name = "PrettyPurples", direction = -1)
+  scale_colour_pretty_c(name = "Purples", direction = -1)
 ```
 
 
