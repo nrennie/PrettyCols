@@ -6,6 +6,3 @@
 #' @export
 
 complementary_colour <- complementary_color
-
-
-

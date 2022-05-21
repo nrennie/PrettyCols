@@ -17,9 +17,10 @@ Imports:
   ggplot2,
   graphics,
   grDevices, 
+  plotwidgets
+Suggests:
   knitr,
   markdown,
-  rmarkdown,
-  plotwidgets
+  rmarkdown
 URL: https://nrennie.github.io/PrettyCols/
 VignetteBuilder: knitr
