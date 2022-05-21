@@ -5,13 +5,12 @@
 \alias{PrettyColsPalettes}
 \title{Complete list of palettes.}
 \format{
-An object of class \code{list} of length 3.
+An object of class \code{list} of length 13.
 }
 \usage{
 PrettyColsPalettes
 }
 \description{
-Use names(PrettyColsPalettes) to return all palette names. Current choices are:
-\code{MoodyBlues}, \code{PrettyPurples}, \code{Tangerines}
+Use names(PrettyColsPalettes) to return all palette names.
 }
 \keyword{datasets}

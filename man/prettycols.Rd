@@ -24,5 +24,5 @@ A vector of colors.
 Generates the colour palettes
 }
 \examples{
-prettycols("MoodyBlues")
+prettycols("Blues")
 }

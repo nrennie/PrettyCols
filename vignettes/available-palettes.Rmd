@@ -28,17 +28,73 @@ Then load into R:
 library(PrettyCols)
 ```
 
-### Moody Blues
+## Sequential Palettes
+
+### Blues
 ```{r, out.width = "60%", fig.align="center"}
-prettycols("MoodyBlues")
+prettycols("Blues")
 ```
 
-### Pretty Purples
+### Purples
 ```{r, out.width = "60%", fig.align="center"}
-prettycols("PrettyPurples")
+prettycols("Purples")
 ```
 
 ### Tangerines
 ```{r, out.width = "60%", fig.align="center"}
 prettycols("Tangerines")
+```
+
+### Greens
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Greens")
+```
+
+### Pinks
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Pinks")
+```
+
+## Diverging Palettes
+
+### PurpleGreens
+```{r, out.width = "60%", fig.align="center"}
+prettycols("PurpleGreens")
+```
+
+### PinkGreens
+```{r, out.width = "60%", fig.align="center"}
+prettycols("PinkGreens")
+```
+
+### TangerineBlues
+```{r, out.width = "60%", fig.align="center"}
+prettycols("TangerineBlues")
+```
+
+### PurpleGreens
+```{r, out.width = "60%", fig.align="center"}
+prettycols("PurpleGreens")
+```
+
+### PurplePinks
+```{r, out.width = "60%", fig.align="center"}
+prettycols("PurplePinks")
+```
+
+## Qualitative Palettes
+
+### Bold
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Bold")
+```
+
+### Light
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Light")
+```
+
+### Dark
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Dark")
 ```

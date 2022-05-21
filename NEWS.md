@@ -1,3 +1,8 @@
+## PrettyCols 0.0.4 2022_05_21
+
+* add new palettes
+* add R CMD checks
+
 ## PrettyCols 0.0.3 2022_05_14
 
 * add new palettes

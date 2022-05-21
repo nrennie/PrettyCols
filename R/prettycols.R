@@ -8,7 +8,7 @@
 #' @param direction Sets order of colors. Default palette is 1. If direction is -1, palette color order is reversed
 #' @return A vector of colors.
 #' @examples
-#' prettycols("MoodyBlues")
+#' prettycols("Blues")
 #' @export
 
 prettycols <- function(name,
