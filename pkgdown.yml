@@ -1,11 +1,11 @@
 pandoc: 2.14.2
-pkgdown: 2.0.3
+pkgdown: 2.0.6
 pkgdown_sha: ~
 articles:
   available-palettes: available-palettes.html
   using-with-ggplot2: using-with-ggplot2.html
   viewing-palettes: viewing-palettes.html
-last_built: 2022-05-21T15:53Z
+last_built: 2022-08-21T13:24Z
 urls:
   reference: https://nrennie.github.io/PrettyCols/reference
   article: https://nrennie.github.io/PrettyCols/articles
