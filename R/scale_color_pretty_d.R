@@ -10,7 +10,7 @@ scale_color_pretty_d <- function(name, direction = 1) {
 
     palette <- PrettyColsPalettes[[name]]
 
-    if (is.null(palette) | is.numeric(name)) {
+    if (is.null(palette) || is.numeric(name)) {
       stop("Palette does not exist.")
     }
 
@@ -20,7 +20,7 @@ scale_color_pretty_d <- function(name, direction = 1) {
 
     function(n) if (direction == 1) {
       palette[[1]][1:n]
-    } else{
+    } else {
       rev(palette[[1]])[1:n]
     }
 

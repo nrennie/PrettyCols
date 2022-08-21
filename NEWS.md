@@ -1,3 +1,9 @@
+## PrettyCols 0.0.6 2022_08_21
+
+* update linting
+* update GitHub Actions
+* Add `Relax` palette
+
 ## PrettyCols 0.0.5 2022_05_21
 
 * update pkgdown site

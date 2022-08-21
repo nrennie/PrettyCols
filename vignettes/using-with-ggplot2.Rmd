@@ -31,18 +31,18 @@ library(PrettyCols)
 Set up a simple data frame to use for an example plot:
 ```{r}
 library(ggplot2)
-df <- data.frame(type = c("A", "B", "C"), 
+df <- data.frame(type = c("A", "B", "C"),
                  value = c(1, 2, 3))
 ```
 
 To change the fill or colour for discrete variables:
 ```{r, fig.show="hold", out.width = "47%"}
-ggplot(data = df, 
+ggplot(data = df,
        mapping = aes(x = type, y = value, fill = type)) +
   geom_col() +
   scale_fill_pretty_d(name = "Blues")
 
-ggplot(data = df, 
+ggplot(data = df,
        mapping = aes(x = type, y = value, colour = type)) +
   geom_col(size = 2, fill = "white") +
   scale_colour_pretty_d(name = "Blues")
@@ -50,12 +50,12 @@ ggplot(data = df,
 
 To change the fill or colour for continuous variables:
 ```{r, fig.show="hold", out.width = "47%"}
-ggplot(data = df, 
+ggplot(data = df,
        mapping = aes(x = type, y = value, fill = value)) +
   geom_col() +
   scale_fill_pretty_c(name = "Purples")
 
-ggplot(data = df, 
+ggplot(data = df,
        mapping = aes(x = type, y = value, colour = value)) +
   geom_col(size = 2, fill = "white") +
   scale_colour_pretty_c(name = "Purples", direction = -1)

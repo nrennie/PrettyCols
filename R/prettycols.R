@@ -20,7 +20,7 @@ prettycols <- function(name,
 
   palette <- PrettyColsPalettes[[name]]
 
-  if (is.null(palette) | is.numeric(name)) {
+  if (is.null(palette) || is.numeric(name)) {
     stop("Palette name does not exist. Use names(PrettyColsPalettes) to find valid palette name.")
   }
 

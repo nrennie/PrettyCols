@@ -9,7 +9,7 @@ scale_color_pretty_c <- function(name, direction = 1) {
 
   palette <- PrettyColsPalettes[[name]]
 
-  if (is.null(palette) | is.numeric(name)) {
+  if (is.null(palette) || is.numeric(name)) {
     stop("Palette does not exist.")
   }
 
