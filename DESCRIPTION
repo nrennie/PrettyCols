@@ -20,9 +20,11 @@ Imports:
   plotwidgets,
   purrr
 Suggests:
-  knitr,
-  markdown,
-  rmarkdown
+    knitr,
+    markdown,
+    rmarkdown,
+    testthat (>= 3.0.0)
 Config/Needs/website: nrennie/nrenniepkgdown
 URL: https://nrennie.github.io/PrettyCols/
 VignetteBuilder: knitr
+Config/testthat/edition: 3
