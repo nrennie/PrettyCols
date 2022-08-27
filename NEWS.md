@@ -1,7 +1,7 @@
 ## PrettyCols 0.0.7 2022_08_27
 
 * add `view_all_palettes()` function
-* add `Warm`, `Teals` and `TealGreens` palettes
+* add `Autumn`, `Winter`, `Rainbow`, `Teals` and `TealGreens` palettes
 * update vignettes
 * edit layout of print function slightly
 * add basic tests using {testthat}
