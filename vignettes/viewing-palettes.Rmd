@@ -63,7 +63,7 @@ Palettes are categorised into three types:
 
 Palettes can be viewed by type. For example, to see all sequential colour palettes, run:
 
-```{r, out.width = "6=100%", fig.align="center"}
+```{r, out.width = "100%", fig.align="center"}
 view_all_palettes(type = "seq")
 ```
 
