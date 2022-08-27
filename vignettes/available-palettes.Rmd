@@ -55,6 +55,11 @@ prettycols("Greens")
 prettycols("Pinks")
 ```
 
+### Teals
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Teals")
+```
+
 ## Diverging Palettes
 
 ### PurpleGreens
@@ -82,6 +87,11 @@ prettycols("PurpleGreens")
 prettycols("PurplePinks")
 ```
 
+### TealGreens
+```{r, out.width = "60%", fig.align="center"}
+prettycols("TealGreens")
+```
+
 ## Qualitative Palettes
 
 ### Bold
@@ -107,4 +117,19 @@ prettycols("Neon")
 ### Relax
 ```{r, out.width = "60%", fig.align="center"}
 prettycols("Relax")
+```
+
+### Autumn
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Autumn")
+```
+
+### Winter
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Winter")
+```
+
+### Rainbow
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Rainbow")
 ```
