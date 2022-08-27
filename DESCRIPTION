@@ -20,6 +20,7 @@ Imports:
   plotwidgets,
   purrr
 Suggests:
+    covr,
     knitr,
     markdown,
     rmarkdown,
