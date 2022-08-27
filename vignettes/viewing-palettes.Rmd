@@ -44,3 +44,26 @@ By default a discrete palette showing all colours is displayed. Setting `type = 
 prettycols("Tangerines", n = 50, type = "continuous", direction = -1)
 ```
 
+To see all available palettes, run:
+```{r}
+view_all_palettes()
+```
+
+or, 
+
+```{r, eval = FALSE}
+view_all_palettes(type == "all")
+```
+
+Palettes are categorised into three types: 
+
+* Sequential (`seq`), 
+* Diverging (`div`), 
+* Qualitative (`qual`).
+
+Palettes can be viewed by type. For example, to see all sequential colour palettes, run:
+
+```{r}
+view_all_palettes(type = "seq")
+```
+

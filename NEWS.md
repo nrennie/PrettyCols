@@ -1,3 +1,9 @@
+## PrettyCols 0.0.7 2022_08_27
+
+* add `view_all_palettes()` function
+* add `Warm`, `Teals` and `TealGreens` palettes
+* update vignettes
+
 ## PrettyCols 0.0.6 2022_08_21
 
 * update linting
