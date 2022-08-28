@@ -1,3 +1,9 @@
+## PrettyCols 1.0.0 2022_08_28
+
+* first CRAN submission
+* use CC0 license
+* remove `complementary_color()`
+
 ## PrettyCols 0.0.7 2022_08_27
 
 * add `view_all_palettes()` function

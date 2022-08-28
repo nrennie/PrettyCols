@@ -1,13 +1,13 @@
 Package: PrettyCols
-Title: Pretty colour palettes
-Version: 0.0.7
+Title: Pretty Colour Palettes
+Version: 1.0.0
 Authors@R: 
     person(given = "Nicola",
            family = "Rennie",
            role = c("aut", "cre"),
            email = "nrennie35@gmail.com")
 Description: Defines aesthetic colour palettes.
-License: MIT + file LICENSE
+License: CC0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
@@ -17,7 +17,6 @@ Imports:
   ggplot2,
   graphics,
   grDevices, 
-  plotwidgets,
   purrr
 Suggests:
     covr,
