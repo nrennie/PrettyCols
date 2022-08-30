@@ -8,11 +8,15 @@ view_all_palettes(type = "all")
 }
 \arguments{
 \item{type}{Type of colour palettes to view. Either all palettes, sequential palettes,
-diverging palettes, or qualitative palettes. One of c("all", "seq", "div", "qual"). Default "all".}
+diverging palettes, or qualitative palettes. One of c("all", "seq", "div", "qual").
+Default "all".}
 }
 \value{
 A plot of all colour palettes available in the package.
 }
 \description{
 Prints all available colour palettes
+}
+\examples{
+view_all_palettes(type = "seq")
 }

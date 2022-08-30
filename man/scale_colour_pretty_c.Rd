@@ -4,13 +4,25 @@
 \alias{scale_colour_pretty_c}
 \title{Plotting with PrettyCols palettes for colour ggplot2}
 \usage{
-scale_colour_pretty_c(name, direction = 1)
+scale_colour_pretty_c(name, direction = 1, ...)
 }
 \arguments{
 \item{name}{Name of Palette. Run \code{names(PrettyColsPalettes)} to view options.}
 
-\item{direction}{Sets order of colors. Default palette is 1. If direction is -1, palette color order is reversed}
+\item{direction}{Sets order of colors. Default palette is 1. If direction is -1,
+palette color order is reversed}
+
+\item{...}{Other arguments passed on to \code{\link[ggplot2]{scale_colour_gradientn}}}
+}
+\value{
+A ggproto object defining a continuous colour scale for use with ggplot2.
 }
 \description{
 Plotting with PrettyCols palettes for colour ggplot2
+}
+\examples{
+library(ggplot2)
+ggplot(data=iris, aes(x=Petal.Width, y=Petal.Length, colour=Petal.Width)) +
+  geom_point() +
+  scale_colour_pretty_c("Tangerines")
 }

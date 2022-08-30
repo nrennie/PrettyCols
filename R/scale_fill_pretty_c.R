@@ -1,9 +1,17 @@
 #' Plotting with PrettyCols palettes for colour ggplot2
 #' @param name Name of Palette. Run \code{names(PrettyColsPalettes)} to view options.
-#' @param direction Sets order of colors. Default palette is 1. If direction is -1, palette color order is reversed
+#' @param direction Sets order of colors. Default palette is 1. If direction is -1,
+#' palette color order is reversed
+#' @param ... Other arguments passed on to \code{\link[ggplot2]{scale_fill_gradientn}}
+#' @return A ggproto object defining a continuous fill scale for use with ggplot2.
+#' @examples
+#' library(ggplot2)
+#' ggplot(data=iris, aes(x=Petal.Width, y=Petal.Length, fill=Petal.Width)) +
+#'   geom_point(pch = 21) +
+#'   scale_fill_pretty_c("Greens")
 #' @export
 
-scale_fill_pretty_c <- function(name, direction = 1) {
+scale_fill_pretty_c <- function(name, direction = 1, ...) {
 
   `%notin%` <- Negate(`%in%`)
 
@@ -17,5 +25,5 @@ scale_fill_pretty_c <- function(name, direction = 1) {
     stop("Direction not valid. Please use 1 for standard palette or -1 for reversed palette.")
   }
 
-  ggplot2::scale_fill_gradientn(colors = prettycols(name = name, direction = direction))
+  ggplot2::scale_fill_gradientn(colors = prettycols(name = name, direction = direction), ...)
 }

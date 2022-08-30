@@ -3,6 +3,7 @@
 * first CRAN submission
 * use CC0 license
 * remove `complementary_color()`
+* add examples to documentation
 
 ## PrettyCols 0.0.7 2022_08_27
 

@@ -9,3 +9,4 @@
 ^LICENSE\.md$
 ^codecov\.yml$
 cran-comments.md
+^CRAN-SUBMISSION$

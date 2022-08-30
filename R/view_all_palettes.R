@@ -1,7 +1,10 @@
 #' Prints all available colour palettes
 #'
 #' @param type Type of colour palettes to view. Either all palettes, sequential palettes,
-#' diverging palettes, or qualitative palettes. One of c("all", "seq", "div", "qual"). Default "all".
+#' diverging palettes, or qualitative palettes. One of c("all", "seq", "div", "qual").
+#' Default "all".
+#' @examples
+#' view_all_palettes(type = "seq")
 #' @return A plot of all colour palettes available in the package.
 #' @export
 

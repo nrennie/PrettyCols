@@ -5,5 +5,6 @@ test_that("palette display", {
 
   # bad inputs
   expect_error(prettycols("new_name"))
+  expect_error(prettycols("Relax", n = 6))
 
 })

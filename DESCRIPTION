@@ -6,7 +6,7 @@ Authors@R:
            family = "Rennie",
            role = c("aut", "cre"),
            email = "nrennie35@gmail.com")
-Description: Defines aesthetic colour palettes.
+Description: Defines aesthetically pleasing colour palettes.
 License: CC0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

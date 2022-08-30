@@ -6,7 +6,7 @@
 #' @param type Either "continuous" or "discrete". Use continuous if you want to automatically
 #' interpolate between colors. Default "discrete"
 #' @param direction Sets order of colors. Default palette is 1. If direction is -1, palette color order is reversed
-#' @return A vector of colors.
+#' @return A character vector of hex colour codes.
 #' @examples
 #' prettycols("Blues")
 #' @export

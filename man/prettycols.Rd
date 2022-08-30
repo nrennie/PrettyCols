@@ -18,7 +18,7 @@ interpolate between colors. Default "discrete"}
 \item{direction}{Sets order of colors. Default palette is 1. If direction is -1, palette color order is reversed}
 }
 \value{
-A vector of colors.
+A character vector of hex colour codes.
 }
 \description{
 Generates the colour palettes
