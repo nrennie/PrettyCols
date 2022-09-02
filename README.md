@@ -1,6 +1,8 @@
 <!-- badges: start -->
   [![R-CMD-check](https://github.com/nrennie/PrettyCols/workflows/R-CMD-check/badge.svg)](https://github.com/nrennie/PrettyCols/actions)
   [![codecov](https://codecov.io/gh/nrennie/PrettyCols/branch/main/graph/badge.svg)](https://app.codecov.io/gh/nrennie/PrettyCols?branch=main)
+  [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/PrettyCols)](https://cran.r-project.org/package=PrettyCols)
+
 <!-- badges: end -->
 
 # PrettyCols <img src="man/figures/logo.png" align="right" width="120" />
