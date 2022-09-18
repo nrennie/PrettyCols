@@ -1,0 +1,54 @@
+---
+title: "colourblind-friendly-palettes"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{colourblind-friendly-palettes}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+Install from CRAN using:
+``` {r, eval = FALSE}
+install.packages("PrettyCols")
+```
+
+Or install the development version using:
+``` {r, eval = FALSE}
+remotes::install_github("nrennie/PrettyCols")
+```
+
+Then load into R:
+```{r}
+library(PrettyCols)
+```
+
+To return a data frame of which colour palettes are colourblind friendly, use:
+```{r, eval = F}
+colourblind_friendly()
+```
+Note that the `colorblind_friendly()` is the same function.
+
+To view the palettes that are colourblind friendly, set the `colourblind_friendly` argument in `view_all_palettes()` to `TRUE`. To view all colourblind friendly palettes:
+
+```{r, out.width = "60%", fig.align="center"}
+view_all_palettes(colourblind_friendly = TRUE)
+```
+
+This can be combined with a palette type. For example, to view all diverging colour palettes that are colourblind friendly:
+```{r, out.width = "60%", fig.align="center"}
+view_all_palettes(type = "div", colourblind_friendly = TRUE)
+```
+
+Colourblind friendliness was checked using the {colorblindcheck} R package.
+
+
+
+
+

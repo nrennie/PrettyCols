@@ -14,12 +14,12 @@ knitr::opts_chunk$set(
 )
 ```
 
-
-Install using:
+Install from CRAN using:
 ``` {r, eval = FALSE}
-devtools::install_github("nrennie/PrettyCols")
+install.packages("PrettyCols")
 ```
-or
+
+Or install the development version using:
 ``` {r, eval = FALSE}
 remotes::install_github("nrennie/PrettyCols")
 ```
