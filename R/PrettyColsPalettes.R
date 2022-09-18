@@ -90,11 +90,11 @@ PrettyColsPalettes <- list(
                 c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12),
                 "qual",
                 FALSE),
-  Beach = list(c("#0e7c7b","#17bebb","#d4f4dd","#d62246","#4b1d3f"),
+  Beach = list(c("#0e7c7b", "#17bebb", "#d4f4dd", "#d62246", "#4b1d3f"),
                c(1, 2, 3, 4, 5),
                "qual",
                FALSE),
-  Fun = list(c("#134074","#bfab25","#4ea699","#efb0a1","#df2935"),
+  Fun = list(c("#134074", "#bfab25", "#4ea699", "#efb0a1", "#df2935"),
                c(1, 2, 3, 4, 5),
                "qual",
                TRUE)
