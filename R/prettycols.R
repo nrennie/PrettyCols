@@ -32,6 +32,10 @@ prettycols <- function(name,
     stop("Direction not valid. Please use 1 for standard palette or -1 for reversed palette.")
   }
 
+  if (type %notin% c("discrete", "continuous")) {
+    stop("Invalid palette type. Must be one of 'discrete' or 'continuous'.")
+  }
+
   if (type == "discrete" && n > length(palette[[1]])) {
     stop("Number of requested colors greater than what discrete palette can offer, use continuous instead.")
   }
