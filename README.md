@@ -11,15 +11,16 @@
 
 The structure of the package is based on code from the [{PNWColors}](https://github.com/jakelawlor/PNWColors),  [{wesanderson}](https://github.com/karthik/wesanderson), and [{MetBrewer}](https://github.com/BlakeRMills/MetBrewer) packages. 
 
-## Installation:
+## Installation
 
-Install using:
+{PrettyCols} is available on CRAN. Install using:
 ``` r
-devtools::install_github("nrennie/PrettyCols")
+install.packages("PrettyCols")
 ```
-or
+or install the development version from GitHub:
 ``` r
 remotes::install_github("nrennie/PrettyCols")
 ```
 
 See [nrennie.github.io/PrettyCols](https://nrennie.github.io/PrettyCols/) for full documentation.
+
