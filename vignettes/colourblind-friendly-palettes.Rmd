@@ -1,5 +1,5 @@
 ---
-title: "colourblind-friendly-palettes"
+title: "Colourblind Friendly Palettes"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{colourblind-friendly-palettes}
