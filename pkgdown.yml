@@ -3,9 +3,10 @@ pkgdown: 2.0.6
 pkgdown_sha: ~
 articles:
   available-palettes: available-palettes.html
+  colourblind-friendly-palettes: colourblind-friendly-palettes.html
   using-with-ggplot2: using-with-ggplot2.html
   viewing-palettes: viewing-palettes.html
-last_built: 2022-09-18T16:28Z
+last_built: 2022-09-18T17:16Z
 urls:
   reference: https://nrennie.github.io/PrettyCols/reference
   article: https://nrennie.github.io/PrettyCols/articles
