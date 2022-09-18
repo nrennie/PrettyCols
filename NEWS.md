@@ -5,6 +5,7 @@
 * Filter by colourblind friendly palettes
 * Add `legend_title` argument to scale functions
 * Update tests and vignettes
+* More informative error messages
 
 ## PrettyCols 1.0.0 2022_08_28
 
