@@ -5,7 +5,7 @@
 \alias{PrettyColsPalettes}
 \title{Complete list of palettes.}
 \format{
-An object of class \code{list} of length 20.
+An object of class \code{list} of length 22.
 }
 \usage{
 PrettyColsPalettes

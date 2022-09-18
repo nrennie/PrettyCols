@@ -4,13 +4,15 @@
 \alias{scale_fill_pretty_c}
 \title{Plotting with PrettyCols palettes for colour ggplot2}
 \usage{
-scale_fill_pretty_c(name, direction = 1, ...)
+scale_fill_pretty_c(name, direction = 1, legend_title = NULL, ...)
 }
 \arguments{
 \item{name}{Name of Palette. Run \code{names(PrettyColsPalettes)} to view options.}
 
 \item{direction}{Sets order of colors. Default palette is 1. If direction is -1,
 palette color order is reversed}
+
+\item{legend_title}{Character string specifying legend title. Default \code{NULL}.}
 
 \item{...}{Other arguments passed on to \code{\link[ggplot2]{scale_fill_gradientn}}}
 }
