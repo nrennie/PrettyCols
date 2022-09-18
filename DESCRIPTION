@@ -19,11 +19,11 @@ Imports:
   grDevices, 
   purrr
 Suggests:
-    covr,
-    knitr,
-    markdown,
-    rmarkdown,
-    testthat (>= 3.0.0)
+  covr,
+  knitr,
+  markdown,
+  rmarkdown,
+  testthat (>= 3.0.0)
 Config/Needs/website: nrennie/nrenniepkgdown
 URL: https://nrennie.github.io/PrettyCols/
 VignetteBuilder: knitr

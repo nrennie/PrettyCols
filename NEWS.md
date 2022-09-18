@@ -1,3 +1,11 @@
+## PrettyCols 1.0.0.9000 2022_09_18
+
+* Add new palettes: `Beach`, `Fun`
+* Allow multiple selection of palettes
+* Filter by colourblind friendly palettes
+* Add `legend_title` argument to scale functions
+* Update tests and vignettes
+
 ## PrettyCols 1.0.0 2022_08_28
 
 * first CRAN submission

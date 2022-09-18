@@ -2,6 +2,7 @@
 
 S3method(print,palette)
 export(PrettyColsPalettes)
+export(colourblind_friendly)
 export(prettycols)
 export(scale_color_pretty_c)
 export(scale_color_pretty_d)
