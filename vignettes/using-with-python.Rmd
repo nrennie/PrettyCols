@@ -1,0 +1,49 @@
+---
+title: "Using with python"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{python}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+You can now also use {PrettyCols} with your Python plots!
+
+## Installation
+
+Install the package under the `Python/` directory directly:
+
+```bash
+python setup.py install
+```
+
+or via pip:
+
+```bash
+pip install .
+```
+or place the file into your source directory.
+
+
+## Using with matplotlib
+
+```python
+import prettycols
+import matplotlib.pyplot as plt
+
+colors = pretty_cols(name="Relax", n=4, palette_type="discrete")
+
+plt.figure()
+for i, color in enumerate(colors):
+    plt.scatter([i + 1], [0], color=color)
+plt.show()
+```
+
+<img src="matplotlib-relax.png" width="100%" style="display: block; margin: auto;">
