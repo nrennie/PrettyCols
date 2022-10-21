@@ -5,8 +5,9 @@ articles:
   available-palettes: available-palettes.html
   colourblind-friendly-palettes: colourblind-friendly-palettes.html
   using-with-ggplot2: using-with-ggplot2.html
+  using-with-python: using-with-python.html
   viewing-palettes: viewing-palettes.html
-last_built: 2022-09-18T23:54Z
+last_built: 2022-10-21T20:21Z
 urls:
   reference: https://nrennie.github.io/PrettyCols/reference
   article: https://nrennie.github.io/PrettyCols/articles
