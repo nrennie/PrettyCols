@@ -1,10 +1,8 @@
 ## R CMD check results
 
-In this resubmission, I have added `value` to the .Rd scales functions files from which it was missing as requested. I have also added at least one example to the documentation for each of these functions, and included additional tests for the scales functions.
-
 There were no ERRORs,  or WARNINGs. 
 
-Besides the new submission NOTE, there is one NOTE that is only found on Windows (Server 2022, R-devel 64-bit): 
+There is one NOTE that is only found on Windows (Server 2022, R-devel 64-bit): 
 
 ```
 * checking for detritus in the temp directory ... NOTE
