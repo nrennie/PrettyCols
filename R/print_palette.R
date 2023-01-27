@@ -12,6 +12,10 @@ print.palette <- function(x, ...) {
   graphics::rect(0, 0.92, n + 1, 1.08,
        col = grDevices::rgb(0, 0, 0, 0.6),
        border = NA)
+  graphics::rect(0.5, 0.6, n + 0.5, 1.4,
+                 col = NA,
+                 lwd = 4,
+                 border = "black")
   graphics::text((n + 1) / 2, 1,
        labels = attr(x, "name"),
        cex = 1.5,

@@ -4,6 +4,7 @@
 * Allow multiple selection of palettes
 * Filter by colourblind friendly palettes
 * Add `legend_title` argument to scale functions
+* Edit `print.palette` to add border
 * Update tests and vignettes
 * More informative error messages
 
