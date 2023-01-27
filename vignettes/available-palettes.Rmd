@@ -61,6 +61,16 @@ prettycols("Pinks")
 prettycols("Teals")
 ```
 
+### Yellows
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Yellows")
+```
+
+### Reds
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Reds")
+```
+
 ## Diverging Palettes
 
 ### PurpleGreens
@@ -93,6 +103,16 @@ prettycols("PurplePinks")
 prettycols("TealGreens")
 ```
 
+### PurpleYellows
+```{r, out.width = "60%", fig.align="center"}
+prettycols("PurpleYellows")
+```
+
+### RedBlues
+```{r, out.width = "60%", fig.align="center"}
+prettycols("RedBlues")
+```
+
 ## Qualitative Palettes
 
 ### Bold
@@ -115,9 +135,9 @@ prettycols("Dark")
 prettycols("Neon")
 ```
 
-### Relax
+### Summer
 ```{r, out.width = "60%", fig.align="center"}
-prettycols("Relax")
+prettycols("Summer")
 ```
 
 ### Autumn
@@ -133,4 +153,44 @@ prettycols("Winter")
 ### Rainbow
 ```{r, out.width = "60%", fig.align="center"}
 prettycols("Rainbow")
+```
+
+### Beach
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Beach")
+```
+
+### Fun
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Fun")
+```
+
+### Sea
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Sea")
+```
+
+### Bright
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Bright")
+```
+
+### Relax
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Relax")
+```
+
+### Lucent
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Lucent")
+```
+
+### Lively
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Lively")
+```
+
+### Joyful
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Joyful")
 ```
