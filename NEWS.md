@@ -1,4 +1,4 @@
-## PrettyCols 1.0.0.9000 2022_09_18
+## PrettyCols 1.0.1 2023_01_27
 
 * Add new palettes: `Beach`, `Fun`
 * Allow multiple selection of palettes
