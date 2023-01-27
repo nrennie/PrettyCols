@@ -38,12 +38,11 @@ or place the file into your source directory.
 import prettycols
 import matplotlib.pyplot as plt
 
-colors = pretty_cols(name="Relax", n=4, palette_type="discrete")
-
-plt.figure()
-for i, color in enumerate(colors):
-    plt.scatter([i + 1], [0], color=color)
+colors = pretty_cols(name="Bright", n=3, palette_type="discrete")
+x = ['A', 'B', 'C']
+value = [1, 2, 3]
+plt.bar(x, value, color=colors)
 plt.show()
 ```
 
-<img src="matplotlib-relax.png" width="100%" style="display: block; margin: auto;">
+<img src="matplotlib-bright.png" width="100%" style="display: block; margin: auto;">
