@@ -1,5 +1,5 @@
-pandoc: 2.14.2
-pkgdown: 2.0.6
+pandoc: 2.19.2
+pkgdown: 2.0.7
 pkgdown_sha: ~
 articles:
   available-palettes: available-palettes.html
@@ -7,7 +7,7 @@ articles:
   using-with-ggplot2: using-with-ggplot2.html
   using-with-python: using-with-python.html
   viewing-palettes: viewing-palettes.html
-last_built: 2022-10-21T20:26Z
+last_built: 2023-01-27T20:24Z
 urls:
   reference: https://nrennie.github.io/PrettyCols/reference
   article: https://nrennie.github.io/PrettyCols/articles
