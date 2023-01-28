@@ -6,6 +6,13 @@ test_that("scales functions works", {
   expect_error(scale_fill_pretty_c(name = "Green"))
   expect_error(scale_fill_pretty_c(name = "Greens", direction = 0))
 
+  fill_scale <- scale_fill_pretty_div(name = "PinkGreens")
+  expect_equal(fill_scale$is_discrete(), FALSE)
+  fill_scale <- scale_fill_pretty_div(name = "PinkGreens", legend_title = "New Title")
+  expect_equal(fill_scale$is_discrete(), FALSE)
+  expect_error(scale_fill_pretty_div(name = "Teals"))
+  expect_error(scale_fill_pretty_div(name = "PinkGreens", direction = 0))
+
   fill_scale <- scale_fill_pretty_d(name = "Relax")
   expect_equal(fill_scale$is_discrete(), TRUE)
   fill_scale <- scale_fill_pretty_d(name = "Relax", legend_title = "New Title")
@@ -28,6 +35,20 @@ test_that("scales functions works", {
   expect_equal(colour_scale$is_discrete(), FALSE)
   expect_error(scale_color_pretty_c(name = "Green"))
   expect_error(scale_color_pretty_c(name = "Greens", direction = 0))
+
+  colour_scale <- scale_colour_pretty_div(name = "PinkGreens")
+  expect_equal(colour_scale$is_discrete(), FALSE)
+  colour_scale <- scale_colour_pretty_div(name = "PinkGreens", legend_title = "New Title")
+  expect_equal(colour_scale$is_discrete(), FALSE)
+  expect_error(scale_colour_pretty_div(name = "Teals"))
+  expect_error(scale_colour_pretty_div(name = "PinkGreens", direction = 0))
+
+  color_scale <- scale_color_pretty_div(name = "PinkGreens")
+  expect_equal(color_scale$is_discrete(), FALSE)
+  color_scale <- scale_color_pretty_div(name = "PinkGreens", legend_title = "New Title")
+  expect_equal(color_scale$is_discrete(), FALSE)
+  expect_error(scale_color_pretty_div(name = "Teals"))
+  expect_error(scale_color_pretty_div(name = "PinkGreens", direction = 0))
 
   colour_scale <- scale_colour_pretty_d(name = "Relax")
   expect_equal(colour_scale$is_discrete(), TRUE)
