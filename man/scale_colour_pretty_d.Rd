@@ -24,7 +24,7 @@ Plotting with PrettyCols palettes for colour ggplot2
 }
 \examples{
 library(ggplot2)
-ggplot(data=iris, aes(x=Species, y=Petal.Length, colour=Species)) +
-  geom_jitter() +
-  scale_colour_pretty_d("Relax")
+ggplot(data=mtcars, aes(x=mpg, y=disp, colour=factor(cyl))) +
+  geom_point() +
+  scale_colour_pretty_d("Bright")
 }

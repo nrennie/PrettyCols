@@ -25,7 +25,7 @@ Plotting with PrettyCols palettes for fill colour ggplot2
 }
 \examples{
 library(ggplot2)
-ggplot(data=iris, aes(x=Petal.Width, y=Petal.Length, fill=Petal.Width)) +
-  geom_col() +
-  scale_fill_pretty_div("TangerineBlues")
+ggplot(data=mtcars, aes(x=mpg, y=disp, fill=wt)) +
+  geom_point(pch = 21) +
+  scale_fill_pretty_div("PurpleYellows", midpoint = mean(mtcars$wt))
 }

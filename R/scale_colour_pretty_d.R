@@ -7,9 +7,9 @@
 #' @return A ggproto object defining a discrete colour scale for use with ggplot2.
 #' @examples
 #' library(ggplot2)
-#' ggplot(data=iris, aes(x=Species, y=Petal.Length, colour=Species)) +
-#'   geom_jitter() +
-#'   scale_colour_pretty_d("Relax")
+#' ggplot(data=mtcars, aes(x=mpg, y=disp, colour=factor(cyl))) +
+#'   geom_point() +
+#'   scale_colour_pretty_d("Bright")
 #' @export
 
 scale_colour_pretty_d <- scale_color_pretty_d

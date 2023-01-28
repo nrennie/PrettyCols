@@ -24,7 +24,7 @@ Plotting with PrettyCols palettes for colour ggplot2
 }
 \examples{
 library(ggplot2)
-ggplot(data=iris, aes(x=Petal.Width, y=Petal.Length, color=Petal.Width)) +
+ggplot(data=mtcars, aes(x=mpg, y=disp, color=wt)) +
   geom_point() +
-  scale_color_pretty_c("Tangerines")
+  scale_color_pretty_c("Greens")
 }

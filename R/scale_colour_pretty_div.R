@@ -8,9 +8,9 @@
 #' @return A ggproto object defining a continuous colour scale for use with ggplot2.
 #' @examples
 #' library(ggplot2)
-#' ggplot(data=iris, aes(x=Petal.Width, y=Petal.Length, colour=Petal.Width)) +
+#' ggplot(data=mtcars, aes(x=mpg, y=disp, colour=wt)) +
 #'   geom_point() +
-#'   scale_colour_pretty_div("TangerineBlues")
+#'   scale_colour_pretty_div("PurpleYellows", midpoint = mean(mtcars$wt))
 #' @export
 
 scale_colour_pretty_div <- scale_color_pretty_div

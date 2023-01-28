@@ -7,9 +7,9 @@
 #' @return A ggproto object defining a discrete fill scale for use with ggplot2.
 #' @examples
 #' library(ggplot2)
-#' ggplot(data=iris, aes(x=Species, y=Petal.Length, fill=Species)) +
-#'   geom_col() +
-#'   scale_fill_pretty_d("Relax")
+#' ggplot(data=mtcars, aes(x=mpg, y=disp, fill=factor(cyl))) +
+#'   geom_point(pch = 21) +
+#'   scale_fill_pretty_d("Bright")
 #' @export
 
 scale_fill_pretty_d <- function(name,

@@ -7,7 +7,7 @@
 #' @return A ggproto object defining a continuous fill scale for use with ggplot2.
 #' @examples
 #' library(ggplot2)
-#' ggplot(data=iris, aes(x=Petal.Width, y=Petal.Length, fill=Petal.Width)) +
+#' ggplot(data=mtcars, aes(x=mpg, y=disp, fill=wt)) +
 #'   geom_point(pch = 21) +
 #'   scale_fill_pretty_c("Greens")
 #' @export
