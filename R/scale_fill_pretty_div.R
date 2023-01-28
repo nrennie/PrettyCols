@@ -34,13 +34,13 @@ scale_fill_pretty_div <- function(name,
   }
 
   if (direction == 1) {
-    low_col = palette[[1]][1]
-    high_col = utils::tail(palette[[1]], 1)
+    low_col <- palette[[1]][1]
+    high_col <- utils::tail(palette[[1]], 1)
   } else {
-    low_col = utils::tail(palette[[1]], 1)
-    high_col = palette[[1]][1]
+    low_col <- utils::tail(palette[[1]], 1)
+    high_col <- palette[[1]][1]
   }
-  mid_col = palette[[1]][ceiling(length(palette[[1]])/2)]
+  mid_col <- palette[[1]][ceiling(length(palette[[1]]) / 2)]
 
 
   if (!is.null(legend_title)) {
