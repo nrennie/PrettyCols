@@ -1,6 +1,7 @@
 ## PrettyCols 1.0.1.9000 2023_01_28
 
-*
+* Add `scale_*_pretty_div()` diverging scale functions
+* Changes examples to mtcars data
 
 ## PrettyCols 1.0.1 2023_01_27
 
