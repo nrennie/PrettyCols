@@ -15,7 +15,6 @@ prettycols <- function(name,
                        n,
                        type = "discrete",
                        direction = 1) {
-
   `%notin%` <- Negate(`%in%`)
 
   palette <- PrettyColsPalettes[[name]]
@@ -42,21 +41,20 @@ prettycols <- function(name,
 
   continuous <- if (direction == 1) {
     grDevices::colorRampPalette(palette[[1]])(n)
-    } else {
-      grDevices::colorRampPalette(rev(palette[[1]]))(n)
-      }
+  } else {
+    grDevices::colorRampPalette(rev(palette[[1]]))(n)
+  }
 
   discrete <- if (direction == 1) {
     palette[[1]][1:n]
-    } else {
-      rev(palette[[1]])[1:n]
-      }
+  } else {
+    rev(palette[[1]])[1:n]
+  }
 
   out <- switch(type,
-                continuous = continuous,
-                discrete = discrete
+    continuous = continuous,
+    discrete = discrete
   )
 
   structure(out, class = "palette", name = name)
-
 }
