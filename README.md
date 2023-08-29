@@ -24,3 +24,4 @@ remotes::install_github("nrennie/PrettyCols")
 
 See [nrennie.github.io/PrettyCols](https://nrennie.github.io/PrettyCols/) for full documentation.
 
+A Python implementation of this package can be found at [github.com/nrennie/PrettyPyCols](https://github.com/nrennie/PrettyPyCols).
