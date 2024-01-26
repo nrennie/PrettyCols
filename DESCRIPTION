@@ -26,5 +26,6 @@ Suggests:
   testthat (>= 3.0.0)
 Config/Needs/website: nrennie/nrenniepkgdown
 URL: https://nrennie.github.io/PrettyCols/
+BugReports: https://github.com/nrennie/PrettyCols/issues
 VignetteBuilder: knitr
 Config/testthat/edition: 3
