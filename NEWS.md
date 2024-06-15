@@ -11,6 +11,7 @@
 * Add `scale_*_pretty_div()` diverging scale functions
 * Changes examples to `mtcars` data
 * Remove `scale_name` from `discrete_scale()` calls
+* Add {lifecycle} to Imports
 
 
 ## PrettyCols 1.0.1 2023_01_27
