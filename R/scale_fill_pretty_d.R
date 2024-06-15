@@ -40,11 +40,9 @@ scale_fill_pretty_d <- function(name,
   if (!is.null(legend_title)) {
     ggplot2::discrete_scale(name = legend_title,
                             aesthetics = "fill",
-                            scale_name = "pretty_d",
                             palette = prettycols_disc(name = name, direction = direction), ...)
   } else {
     ggplot2::discrete_scale(aesthetics = "fill",
-                            scale_name = "pretty_d",
                             palette = prettycols_disc(name = name, direction = direction), ...)
   }
 
