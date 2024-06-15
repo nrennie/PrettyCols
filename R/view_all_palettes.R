@@ -31,7 +31,7 @@ view_all_palettes <- function(type = "all",
       n_col <- min(4, floor(sqrt(n_all)))
       n_row <- ceiling(n_all / n_col)
       par(mfrow = c(n_row, n_col))
-      purrr::map(.x = names(to_print), .f = ~print(prettycols(.x)))
+      lapply(names(to_print), function(.x) print(prettycols(.x)))
       par(mfrow = c(1, 1))
     } else {
       if (colourblind_friendly == TRUE) {
@@ -47,7 +47,7 @@ view_all_palettes <- function(type = "all",
       n_col <- min(3, floor(sqrt(n_all)))
       n_row <- ceiling(n_all / n_col)
       par(mfrow = c(n_row, n_col))
-      purrr::map(.x = names(filtered_palettes), .f = ~print(prettycols(.x)))
+      lapply(names(filtered_palettes), function(.x) print(prettycols(.x)))
       par(mfrow = c(1, 1))
     }
   }

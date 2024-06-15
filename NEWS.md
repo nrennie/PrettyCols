@@ -3,6 +3,7 @@
 * Move Python implementation to separate repository
 * Add `scale_*_pretty_div()` diverging scale functions
 * Changes examples to mtcars data
+* Removed `purrr` dependency
 
 ## PrettyCols 1.0.1 2023_01_27
 
