@@ -16,7 +16,8 @@ Depends:
 Imports: 
   ggplot2,
   graphics,
-  grDevices, 
+  grDevices,
+  lifecycle,
   purrr
 Suggests:
   covr,
