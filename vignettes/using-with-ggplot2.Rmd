@@ -45,14 +45,14 @@ ggplot(
   mapping = aes(x = type, y = value, fill = type)
 ) +
   geom_col() +
-  scale_fill_pretty_d(name = "Blues")
+  scale_fill_pretty_d(palette = "Blues")
 
 ggplot(
   data = df,
   mapping = aes(x = type, y = value, colour = type)
 ) +
   geom_col(linewidth = 2, fill = "white") +
-  scale_colour_pretty_d(name = "Blues")
+  scale_colour_pretty_d(palette = "Blues")
 ```
 
 To change the fill or colour for continuous variables:
@@ -62,14 +62,14 @@ ggplot(
   mapping = aes(x = type, y = value, fill = value)
 ) +
   geom_col() +
-  scale_fill_pretty_c(name = "Purples")
+  scale_fill_pretty_c(palette = "Purples")
 
 ggplot(
   data = df,
   mapping = aes(x = type, y = value, colour = value)
 ) +
   geom_col(linewidth = 2, fill = "white") +
-  scale_colour_pretty_c(name = "Purples", direction = -1)
+  scale_colour_pretty_c(palette = "Purples", direction = -1)
 ```
 
 To change the fill or colour for continuous (diverging) variables (using diverging palettes only):
@@ -79,14 +79,14 @@ ggplot(
   mapping = aes(x = type, y = value, fill = value)
 ) +
   geom_col() +
-  scale_fill_pretty_div(name = "PurpleYellows", midpoint = 2)
+  scale_fill_pretty_div(palette = "PurpleYellows", midpoint = 2)
 
 ggplot(
   data = df,
   mapping = aes(x = type, y = value, colour = value)
 ) +
   geom_col(linewidth = 2, fill = "white") +
-  scale_colour_pretty_div(name = "PurpleYellows", midpoint = 2)
+  scale_colour_pretty_div(palette = "PurpleYellows", midpoint = 2)
 ```
 
 To change the legend title:
@@ -96,7 +96,7 @@ ggplot(
   mapping = aes(x = type, y = value, fill = value)
 ) +
   geom_col() +
-  scale_fill_pretty_c(name = "Purples", legend_title = "My New Title") +
+  scale_fill_pretty_c(palette = "Purples", name = "My New Title") +
   theme(legend.title = element_text(colour = "blue"))
 ```
 

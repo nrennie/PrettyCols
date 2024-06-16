@@ -30,9 +30,11 @@ library(PrettyCols)
 ```
 
 To return a data frame of which colour palettes are colourblind friendly, use:
+
 ```{r, eval = F}
 colourblind_friendly()
 ```
+
 Note that the `colorblind_friendly()` is the same function.
 
 To view the palettes that are colourblind friendly, set the `colourblind_friendly` argument in `view_all_palettes()` to `TRUE`. To view all colourblind friendly palettes:
@@ -47,8 +49,4 @@ view_all_palettes(type = "div", colourblind_friendly = TRUE)
 ```
 
 Colourblind friendliness was checked using the {colorblindcheck} R package.
-
-
-
-
 

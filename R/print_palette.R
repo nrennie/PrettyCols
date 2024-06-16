@@ -21,7 +21,7 @@ print.palette <- function(x, ...) {
     border = "black"
   )
   graphics::text((n + 1) / 2, 1,
-    labels = attr(x, "name"),
+    labels = attr(x, "palette"),
     cex = 1.5,
     family = "sans",
     col = grDevices::rgb(1, 1, 1, 1)
