@@ -1,6 +1,6 @@
 #' Generates the colour palettes
 #'
-#' @param name Name of Palette. Run \code{names(PrettyColsPalettes)} to view options.
+#' @param palette Name of Palette. Run \code{names(PrettyColsPalettes)} to view options.
 #' @param n Number of desired colors. If number of requested colors is beyond the scope of the palette,
 #' colors are automatically interpolated. If n is not provided, the length of the palette is used.
 #' @param type Either "continuous" or "discrete". Use continuous if you want to automatically
@@ -11,20 +11,20 @@
 #' prettycols("Blues")
 #' @export
 
-prettycols <- function(name,
+prettycols <- function(palette,
                        n,
                        type = "discrete",
                        direction = 1) {
   `%notin%` <- Negate(`%in%`)
 
-  palette <- PrettyColsPalettes[[name]]
+  palette_choice <- PrettyColsPalettes[[palette]]
 
-  if (is.null(palette) || is.numeric(name)) {
+  if (is.null(palette_choice) || is.numeric(palette)) {
     stop("Palette name does not exist. Use names(PrettyColsPalettes) to find valid palette name.")
   }
 
   if (missing(n)) {
-    n <- length(palette[[1]])
+    n <- length(palette_choice[[1]])
   }
 
   if (direction %notin% c(1, -1)) {
@@ -35,20 +35,20 @@ prettycols <- function(name,
     stop("Invalid palette type. Must be one of 'discrete' or 'continuous'.")
   }
 
-  if (type == "discrete" && n > length(palette[[1]])) {
+  if (type == "discrete" && n > length(palette_choice[[1]])) {
     stop("Number of requested colors greater than what discrete palette can offer, use continuous instead.")
   }
 
   continuous <- if (direction == 1) {
-    grDevices::colorRampPalette(palette[[1]])(n)
+    grDevices::colorRampPalette(palette_choice[[1]])(n)
   } else {
-    grDevices::colorRampPalette(rev(palette[[1]]))(n)
+    grDevices::colorRampPalette(rev(palette_choice[[1]]))(n)
   }
 
   discrete <- if (direction == 1) {
-    palette[[1]][1:n]
+    palette_choice[[1]][1:n]
   } else {
-    rev(palette[[1]])[1:n]
+    rev(palette_choice[[1]])[1:n]
   }
 
   out <- switch(type,
@@ -56,5 +56,5 @@ prettycols <- function(name,
     discrete = discrete
   )
 
-  structure(out, class = "palette", name = name)
+  structure(out, class = "palette", palette = palette)
 }

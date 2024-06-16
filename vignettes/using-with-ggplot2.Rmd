@@ -32,55 +32,71 @@ library(PrettyCols)
 Set up a simple data frame to use for an example plot:
 ```{r}
 library(ggplot2)
-df <- data.frame(type = c("A", "B", "C"),
-                 value = c(1, 2, 3))
+df <- data.frame(
+  type = c("A", "B", "C"),
+  value = c(1, 2, 3)
+)
 ```
 
 To change the fill or colour for discrete variables:
 ```{r, fig.show="hold", out.width = "47%"}
-ggplot(data = df,
-       mapping = aes(x = type, y = value, fill = type)) +
+ggplot(
+  data = df,
+  mapping = aes(x = type, y = value, fill = type)
+) +
   geom_col() +
-  scale_fill_pretty_d(name = "Blues")
+  scale_fill_pretty_d(palette = "Blues")
 
-ggplot(data = df,
-       mapping = aes(x = type, y = value, colour = type)) +
+ggplot(
+  data = df,
+  mapping = aes(x = type, y = value, colour = type)
+) +
   geom_col(linewidth = 2, fill = "white") +
-  scale_colour_pretty_d(name = "Blues")
+  scale_colour_pretty_d(palette = "Blues")
 ```
 
 To change the fill or colour for continuous variables:
 ```{r, fig.show="hold", out.width = "47%"}
-ggplot(data = df,
-       mapping = aes(x = type, y = value, fill = value)) +
+ggplot(
+  data = df,
+  mapping = aes(x = type, y = value, fill = value)
+) +
   geom_col() +
-  scale_fill_pretty_c(name = "Purples")
+  scale_fill_pretty_c(palette = "Purples")
 
-ggplot(data = df,
-       mapping = aes(x = type, y = value, colour = value)) +
+ggplot(
+  data = df,
+  mapping = aes(x = type, y = value, colour = value)
+) +
   geom_col(linewidth = 2, fill = "white") +
-  scale_colour_pretty_c(name = "Purples", direction = -1)
+  scale_colour_pretty_c(palette = "Purples", direction = -1)
 ```
 
 To change the fill or colour for continuous (diverging) variables (using diverging palettes only):
 ```{r, fig.show="hold", out.width = "47%"}
-ggplot(data = df,
-       mapping = aes(x = type, y = value, fill = value)) +
+ggplot(
+  data = df,
+  mapping = aes(x = type, y = value, fill = value)
+) +
   geom_col() +
-  scale_fill_pretty_div(name = "PurpleYellows", midpoint = 2)
+  scale_fill_pretty_div(palette = "PurpleYellows", midpoint = 2)
 
-ggplot(data = df,
-       mapping = aes(x = type, y = value, colour = value)) +
+ggplot(
+  data = df,
+  mapping = aes(x = type, y = value, colour = value)
+) +
   geom_col(linewidth = 2, fill = "white") +
-  scale_colour_pretty_div(name = "PurpleYellows", midpoint = 2)
+  scale_colour_pretty_div(palette = "PurpleYellows", midpoint = 2)
 ```
 
 To change the legend title:
 ```{r, fig.show="hold", out.width = "47%", fig.align='center'}
-ggplot(data = df,
-       mapping = aes(x = type, y = value, fill = value)) +
+ggplot(
+  data = df,
+  mapping = aes(x = type, y = value, fill = value)
+) +
   geom_col() +
-  scale_fill_pretty_c(name = "Purples", legend_title = "My New Title") +
+  scale_fill_pretty_c(palette = "Purples", name = "My New Title") +
   theme(legend.title = element_text(colour = "blue"))
 ```
 

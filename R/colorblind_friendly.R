@@ -10,7 +10,9 @@
 colorblind_friendly <- function(palettes = PrettyColsPalettes) {
   cbf <- unlist(lapply(palettes, `[[`, 4))
   cbf_palettes <- palettes[unname(which(cbf == TRUE))]
-  cbf_palettes_df <- data.frame(name = names(cbf_palettes),
-                                type = unname(unlist(lapply(cbf_palettes, `[[`, 3))))
+  cbf_palettes_df <- data.frame(
+    name = names(cbf_palettes),
+    type = unname(unlist(lapply(cbf_palettes, `[[`, 3)))
+  )
   return(cbf_palettes_df)
 }

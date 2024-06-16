@@ -4,10 +4,10 @@
 \alias{prettycols}
 \title{Generates the colour palettes}
 \usage{
-prettycols(name, n, type = "discrete", direction = 1)
+prettycols(palette, n, type = "discrete", direction = 1)
 }
 \arguments{
-\item{name}{Name of Palette. Run \code{names(PrettyColsPalettes)} to view options.}
+\item{palette}{Name of Palette. Run \code{names(PrettyColsPalettes)} to view options.}
 
 \item{n}{Number of desired colors. If number of requested colors is beyond the scope of the palette,
 colors are automatically interpolated. If n is not provided, the length of the palette is used.}

@@ -4,16 +4,16 @@
 \alias{scale_color_pretty_div}
 \title{Plotting with PrettyCols palettes for colour ggplot2}
 \usage{
-scale_color_pretty_div(name, direction = 1, legend_title = NULL, ...)
+scale_color_pretty_div(palette, direction = 1, legend_title = NULL, ...)
 }
 \arguments{
-\item{name}{Name of Palette. Run \code{view_all_palettes(type = "div")} to view
+\item{palette}{Name of Palette. Run \code{view_all_palettes(type = "div")} to view
 options. Must be a diverging palette name.}
 
 \item{direction}{Sets order of colors. Default palette is 1. If direction is -1,
 palette color order is reversed}
 
-\item{legend_title}{Character string specifying legend title. Default \code{NULL}.}
+\item{legend_title}{\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#deprecated}{\figure{lifecycle-deprecated.svg}{options: alt='[Deprecated]'}}}{\strong{[Deprecated]}} Deprecated in favour of \code{name}.}
 
 \item{...}{Other arguments passed on to \code{\link[ggplot2]{scale_colour_gradient2}}}
 }
@@ -25,7 +25,7 @@ Plotting with PrettyCols palettes for colour ggplot2
 }
 \examples{
 library(ggplot2)
-ggplot(data=mtcars, aes(x=mpg, y=disp, colour=wt)) +
+ggplot(data = mtcars, aes(x = mpg, y = disp, colour = wt)) +
   geom_point() +
   scale_color_pretty_div("PurpleYellows", midpoint = mean(mtcars$wt))
 }
