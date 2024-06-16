@@ -12,7 +12,7 @@
 * Changes examples to `mtcars` data
 * Remove `scale_name` from `discrete_scale()` calls
 * Add {lifecycle} to Imports
-
+* Removed {purrr} dependency
 
 ## PrettyCols 1.0.1 2023_01_27
 
