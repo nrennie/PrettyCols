@@ -4,7 +4,7 @@
 \alias{scale_fill_pretty_d}
 \title{Plotting with PrettyCols palettes for colour ggplot2}
 \usage{
-scale_fill_pretty_d(palette, direction = 1, legend_title = deprecated(), ...)
+scale_fill_pretty_d(palette, direction = 1, legend_title = NULL, ...)
 }
 \arguments{
 \item{palette}{Name of Palette. Run \code{names(PrettyColsPalettes)} to view options.}
