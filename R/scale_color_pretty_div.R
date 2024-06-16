@@ -16,7 +16,6 @@
 scale_color_pretty_div <- function(palette,
                                    direction = 1,
                                    legend_title = NULL, ...) {
-
   if (missing(palette)) {
     stop("Please use the 'palette' argument to define which colour palette you want to use.")
   }
@@ -25,7 +24,8 @@ scale_color_pretty_div <- function(palette,
     lifecycle::deprecate_soft(
       when = "1.1.0",
       what = "scale_color_pretty_div(legend_title)",
-      details = "Please use `name` to set the legend title instead.")
+      details = "Please use `name` to set the legend title instead."
+    )
   }
   `%notin%` <- Negate(`%in%`)
 

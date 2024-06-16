@@ -1,5 +1,4 @@
 test_that("palette display", {
-
   expect_silent(view_all_palettes())
   expect_silent(view_all_palettes(type = "seq"))
   expect_silent(view_all_palettes(type = "all", colourblind_friendly = TRUE))
@@ -14,5 +13,4 @@ test_that("palette display", {
 
   expect_equal(ncol(colourblind_friendly()), 2)
   expect_equal(ncol(colorblind_friendly()), 2)
-
 })

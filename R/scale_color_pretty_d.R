@@ -23,7 +23,8 @@ scale_color_pretty_d <- function(palette,
     lifecycle::deprecate_soft(
       when = "1.1.0",
       what = "scale_color_pretty_d(legend_title)",
-      details = "Please use `name` to set the legend title instead.")
+      details = "Please use `name` to set the legend title instead."
+    )
   }
 
   prettycols_disc <- function(palette, direction = 1) {
