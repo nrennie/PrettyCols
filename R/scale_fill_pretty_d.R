@@ -22,7 +22,7 @@ scale_fill_pretty_d <- function(palette,
   if (!is.null(legend_title)) {
     lifecycle::deprecate_soft(
       when = "1.1.0",
-      what = "scale_color_pretty_d(legend_title)",
+      what = "scale_fill_pretty_d(legend_title)",
       details = "Please use `name` to set the legend title instead.")
   }
 
