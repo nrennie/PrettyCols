@@ -1,4 +1,4 @@
-## PrettyCols 1.0.1.9000+ 2024_06_15
+## PrettyCols 1.1.0 2024_06_22
 
 ### Breaking changes (1.0.1.9002+)
 
@@ -13,6 +13,7 @@
 * Remove `scale_name` from `discrete_scale()` calls
 * Add {lifecycle} to Imports
 * Removed {purrr} dependency
+* Add 10 new palettes
 
 ## PrettyCols 1.0.1 2023_01_27
 
