@@ -1,4 +1,4 @@
-## PrettyCols 1.1.0 2024_06_22
+## PrettyCols 1.1.0 2024_06_19
 
 ### Breaking changes
 
