@@ -22,7 +22,7 @@ or install the development version from GitHub:
 remotes::install_github("nrennie/PrettyCols")
 ```
 
-See [nrennie.github.io/PrettyCols](https://nrennie.github.io/PrettyCols/) for full documentation.
+See [nrennie.rbind.io/PrettyCols](https://nrennie.rbind.io/PrettyCols/) for full documentation.
 
 If you have a suggestion of an additional feature, or find a bug, please file an issue on the [GitHub repository](https://github.com/nrennie/ggflowchart/issues).
 

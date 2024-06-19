@@ -25,7 +25,7 @@ Suggests:
   rmarkdown,
   testthat (>= 3.0.0)
 Config/Needs/website: nrennie/nrenniepkgdown
-URL: https://nrennie.github.io/PrettyCols/, https://github.com/nrennie/PrettyCols
+URL: https://nrennie.rbind.io/PrettyCols/, https://github.com/nrennie/PrettyCols
 BugReports: https://github.com/nrennie/PrettyCols/issues
 VignetteBuilder: knitr
 Config/testthat/edition: 3

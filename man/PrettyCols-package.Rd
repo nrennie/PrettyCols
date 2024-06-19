@@ -13,7 +13,8 @@ Defines aesthetically pleasing colour palettes.
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://nrennie.github.io/PrettyCols/}
+  \item \url{https://nrennie.rbind.io/PrettyCols/}
+  \item \url{https://github.com/nrennie/PrettyCols}
   \item Report bugs at \url{https://github.com/nrennie/PrettyCols/issues}
 }
 
