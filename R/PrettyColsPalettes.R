@@ -35,6 +35,12 @@ PrettyColsPalettes <- list(
     "seq",
     TRUE
   ),
+  Roses = list(
+    c("#48282F", "#6C3C46", "#90505E", "#B56576", "#C38391", "#D2A2AC", "#E1C1C8"),
+    c(1, 2, 3, 4, 5, 6, 7),
+    "seq",
+    TRUE
+  ),
   Teals = list(
     c("#004c4c", "#006666", "#008080", "#329999", "#66b2b2", "#99cccc", "#cce5e5"),
     c(1, 2, 3, 4, 5, 6, 7),
@@ -49,6 +55,24 @@ PrettyColsPalettes <- list(
   ),
   Reds = list(
     c("#B53737", "#BE5151", "#C76B6B", "#D08585", "#D99F9F", "#E3B9B9", "#ECD3D3"),
+    c(1, 2, 3, 4, 5, 6, 7),
+    "seq",
+    TRUE
+  ),
+  Greys = list(
+    c("#171517", "#363236", "#554F55", "#746D75", "#999399", "#BEBABE", "#E3E1E3"),
+    c(1, 2, 3, 4, 5, 6, 7),
+    "seq",
+    TRUE
+  ),
+  Aubergines = list(
+    c("#200116", "#361A2D", "#4C3344", "#624D5B", "#796673", "#8F808A", "#A599A1"),
+    c(1, 2, 3, 4, 5, 6, 7),
+    "seq",
+    TRUE
+  ),
+  Browns = list(
+    c("#24140E", "#542F22", "#844A36", "#B4654A", "#C88E7A", "#DCB7AA", "#F0E0DA"),
     c(1, 2, 3, 4, 5, 6, 7),
     "seq",
     TRUE
@@ -210,5 +234,40 @@ PrettyColsPalettes <- list(
     c(1, 2, 3, 4, 5),
     "qual",
     FALSE
+  ),
+  Coast = list(
+    c("#16425B", "#48A9A6", "#E4DFDA", "#D4B483", "#C1666B"),
+    c(1, 2, 3, 4, 5),
+    "qual",
+    FALSE
+  ),
+  Sea = list(
+    c("#0B132B", "#1C2541", "#3A506B", "#5BC0BE", "#6FFFE9"),
+    c(1, 2, 3, 4, 5),
+    "qual",
+    FALSE
+  ),
+  Peppers = list(
+    c("#8EA604", "#F5BB00", "#EC9F05", "#D76A03", "#BF3100"),
+    c(1, 2, 3, 4, 5),
+    "qual",
+    FALSE
+  ),
+  Disco = list(
+    c("#F75C03", "#D90368", "#04A777", "#820263", "#F4E409"),
+    c(1, 2, 3, 4, 5),
+    "qual",
+    FALSE
   )
 )
+
+
+
+
+
+
+
+
+
+
+
