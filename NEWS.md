@@ -1,6 +1,6 @@
 ## PrettyCols 1.1.0 2024_06_22
 
-### Breaking changes (1.0.1.9002+)
+### Breaking changes
 
 * Argument `name` in `scale_*_*()` functions is now used to define the title of the legend, to make this consistent with other {ggplot2} `scale` functions. If you have previously used e.g. `scale_fill_manual(name = "Bright")` to say you want to use the `"Bright"` palette, this will result in an error. Please use `scale_fill_manual(palette = "Bright")` instead.
 * Argument `legend_title` in `scale_*_*()` functions is deprecated. Please use `name` instead. For now, `legend_title` still works. 
@@ -13,7 +13,7 @@
 * Remove `scale_name` from `discrete_scale()` calls
 * Add {lifecycle} to Imports
 * Removed {purrr} dependency
-* Add 10 new palettes
+* Add 8 new palettes
 
 ## PrettyCols 1.0.1 2023_01_27
 
