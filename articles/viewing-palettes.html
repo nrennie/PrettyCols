@@ -34,7 +34,7 @@
     
     <a class="navbar-brand me-2" href="../index.html">PrettyCols</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">1.0.1.9003</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">1.1.0</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -129,18 +129,20 @@
 <code class="sourceCode R"><span><span class="fu">remotes</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"nrennie/PrettyCols"</span><span class="op">)</span></span></code></pre></div>
 <p>Then load into R:</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://nrennie.github.io/PrettyCols/">PrettyCols</a></span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://nrennie.rbind.io/PrettyCols/" class="external-link">PrettyCols</a></span><span class="op">)</span></span></code></pre></div>
 <p>To see the names of all available palettes, run:</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">PrettyColsPalettes</span><span class="op">)</span></span>
 <span><span class="co">#&gt;  [1] "Blues"            "Purples"          "Tangerines"       "Greens"          </span></span>
-<span><span class="co">#&gt;  [5] "Pinks"            "Teals"            "Yellows"          "Reds"            </span></span>
-<span><span class="co">#&gt;  [9] "PurpleGreens"     "PinkGreens"       "TangerineBlues"   "PurpleTangerines"</span></span>
-<span><span class="co">#&gt; [13] "PurplePinks"      "TealGreens"       "PurpleYellows"    "RedBlues"        </span></span>
-<span><span class="co">#&gt; [17] "Bold"             "Dark"             "Light"            "Neon"            </span></span>
-<span><span class="co">#&gt; [21] "Summer"           "Autumn"           "Winter"           "Rainbow"         </span></span>
-<span><span class="co">#&gt; [25] "Beach"            "Fun"              "Sea"              "Bright"          </span></span>
-<span><span class="co">#&gt; [29] "Relax"            "Lucent"           "Lively"           "Joyful"</span></span></code></pre></div>
+<span><span class="co">#&gt;  [5] "Pinks"            "Roses"            "Teals"            "Yellows"         </span></span>
+<span><span class="co">#&gt;  [9] "Reds"             "Greys"            "Aubergines"       "Browns"          </span></span>
+<span><span class="co">#&gt; [13] "PurpleGreens"     "PinkGreens"       "TangerineBlues"   "PurpleTangerines"</span></span>
+<span><span class="co">#&gt; [17] "PurplePinks"      "TealGreens"       "PurpleYellows"    "RedBlues"        </span></span>
+<span><span class="co">#&gt; [21] "Bold"             "Dark"             "Light"            "Neon"            </span></span>
+<span><span class="co">#&gt; [25] "Summer"           "Autumn"           "Winter"           "Rainbow"         </span></span>
+<span><span class="co">#&gt; [29] "Beach"            "Fun"              "Sea"              "Bright"          </span></span>
+<span><span class="co">#&gt; [33] "Relax"            "Lucent"           "Lively"           "Joyful"          </span></span>
+<span><span class="co">#&gt; [37] "Coast"            "Sea"              "Peppers"          "Disco"</span></span></code></pre></div>
 <p>To see the colours in a specific palette, use the
 <code><a href="../reference/prettycols.html">prettycols()</a></code> function:</p>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">

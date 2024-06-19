@@ -10,7 +10,7 @@
     
     <a class="navbar-brand me-2" href="../index.html">PrettyCols</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">1.0.1.9003</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">1.1.0</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,20 +84,21 @@
     </div>
 
     <div class="section level2">
-<h2 class="pkg-version" data-toc-text="1.0.1.9000" id="prettycols-1019000-2024_06_15">PrettyCols 1.0.1.9000+ 2024_06_15<a class="anchor" aria-label="anchor" href="#prettycols-1019000-2024_06_15"></a></h2>
+<h2 class="pkg-version" data-toc-text="1.1.0" id="prettycols-110-2024_06_22">PrettyCols 1.1.0 2024_06_22<a class="anchor" aria-label="anchor" href="#prettycols-110-2024_06_22"></a></h2>
 <div class="section level3">
-<h3 id="breaking-changes-1-0-1-9000">Breaking changes (1.0.1.9002+)<a class="anchor" aria-label="anchor" href="#breaking-changes-1-0-1-9000"></a></h3>
+<h3 id="breaking-changes-1-1-0">Breaking changes<a class="anchor" aria-label="anchor" href="#breaking-changes-1-1-0"></a></h3>
 <ul><li>Argument <code>name</code> in <code>scale_*_*()</code> functions is now used to define the title of the legend, to make this consistent with other {ggplot2} <code>scale</code> functions. If you have previously used e.g. <code>scale_fill_manual(name = "Bright")</code> to say you want to use the <code>"Bright"</code> palette, this will result in an error. Please use <code>scale_fill_manual(palette = "Bright")</code> instead.</li>
 <li>Argument <code>legend_title</code> in <code>scale_*_*()</code> functions is deprecated. Please use <code>name</code> instead. For now, <code>legend_title</code> still works.</li>
 </ul></div>
 <div class="section level3">
-<h3 id="non-breaking-changes-1-0-1-9000">Non-breaking changes<a class="anchor" aria-label="anchor" href="#non-breaking-changes-1-0-1-9000"></a></h3>
+<h3 id="non-breaking-changes-1-1-0">Non-breaking changes<a class="anchor" aria-label="anchor" href="#non-breaking-changes-1-1-0"></a></h3>
 <ul><li>Move Python implementation to separate repository</li>
 <li>Add <code>scale_*_pretty_div()</code> diverging scale functions</li>
 <li>Changes examples to <code>mtcars</code> data</li>
 <li>Remove <code>scale_name</code> from <code><a href="https://ggplot2.tidyverse.org/reference/discrete_scale.html" class="external-link">discrete_scale()</a></code> calls</li>
 <li>Add {lifecycle} to Imports</li>
 <li>Removed {purrr} dependency</li>
+<li>Add 8 new palettes</li>
 </ul></div>
 </div>
     <div class="section level2">
