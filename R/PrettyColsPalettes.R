@@ -241,7 +241,7 @@ PrettyColsPalettes <- list(
     "qual",
     FALSE
   ),
-  Sea = list(
+  Ocean = list(
     c("#0B132B", "#1C2541", "#3A506B", "#5BC0BE", "#6FFFE9"),
     c(1, 2, 3, 4, 5),
     "qual",
