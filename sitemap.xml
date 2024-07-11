@@ -1,81 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://nrennie.github.io/PrettyCols/404.html</loc>
-  </url>
-  <url>
-    <loc>https://nrennie.github.io/PrettyCols/LICENSE.html</loc>
-  </url>
-  <url>
-    <loc>https://nrennie.github.io/PrettyCols/articles/available-palettes.html</loc>
-  </url>
-  <url>
-    <loc>https://nrennie.github.io/PrettyCols/articles/colourblind-friendly-palettes.html</loc>
-  </url>
-  <url>
-    <loc>https://nrennie.github.io/PrettyCols/articles/index.html</loc>
-  </url>
-  <url>
-    <loc>https://nrennie.github.io/PrettyCols/articles/using-with-ggplot2.html</loc>
-  </url>
-  <url>
-    <loc>https://nrennie.github.io/PrettyCols/articles/viewing-palettes.html</loc>
-  </url>
-  <url>
-    <loc>https://nrennie.github.io/PrettyCols/authors.html</loc>
-  </url>
-  <url>
-    <loc>https://nrennie.github.io/PrettyCols/index.html</loc>
-  </url>
-  <url>
-    <loc>https://nrennie.github.io/PrettyCols/news/index.html</loc>
-  </url>
-  <url>
-    <loc>https://nrennie.github.io/PrettyCols/reference/PrettyCols-package.html</loc>
-  </url>
-  <url>
-    <loc>https://nrennie.github.io/PrettyCols/reference/PrettyColsPalettes.html</loc>
-  </url>
-  <url>
-    <loc>https://nrennie.github.io/PrettyCols/reference/colorblind_friendly.html</loc>
-  </url>
-  <url>
-    <loc>https://nrennie.github.io/PrettyCols/reference/colourblind_friendly.html</loc>
-  </url>
-  <url>
-    <loc>https://nrennie.github.io/PrettyCols/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>https://nrennie.github.io/PrettyCols/reference/prettycols.html</loc>
-  </url>
-  <url>
-    <loc>https://nrennie.github.io/PrettyCols/reference/scale_color_pretty_c.html</loc>
-  </url>
-  <url>
-    <loc>https://nrennie.github.io/PrettyCols/reference/scale_color_pretty_d.html</loc>
-  </url>
-  <url>
-    <loc>https://nrennie.github.io/PrettyCols/reference/scale_color_pretty_div.html</loc>
-  </url>
-  <url>
-    <loc>https://nrennie.github.io/PrettyCols/reference/scale_colour_pretty_c.html</loc>
-  </url>
-  <url>
-    <loc>https://nrennie.github.io/PrettyCols/reference/scale_colour_pretty_d.html</loc>
-  </url>
-  <url>
-    <loc>https://nrennie.github.io/PrettyCols/reference/scale_colour_pretty_div.html</loc>
-  </url>
-  <url>
-    <loc>https://nrennie.github.io/PrettyCols/reference/scale_fill_pretty_c.html</loc>
-  </url>
-  <url>
-    <loc>https://nrennie.github.io/PrettyCols/reference/scale_fill_pretty_d.html</loc>
-  </url>
-  <url>
-    <loc>https://nrennie.github.io/PrettyCols/reference/scale_fill_pretty_div.html</loc>
-  </url>
-  <url>
-    <loc>https://nrennie.github.io/PrettyCols/reference/view_all_palettes.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://nrennie.github.io/PrettyCols/404.html</loc></url>
+<url><loc>https://nrennie.github.io/PrettyCols/LICENSE.html</loc></url>
+<url><loc>https://nrennie.github.io/PrettyCols/articles/available-palettes.html</loc></url>
+<url><loc>https://nrennie.github.io/PrettyCols/articles/colourblind-friendly-palettes.html</loc></url>
+<url><loc>https://nrennie.github.io/PrettyCols/articles/index.html</loc></url>
+<url><loc>https://nrennie.github.io/PrettyCols/articles/using-with-ggplot2.html</loc></url>
+<url><loc>https://nrennie.github.io/PrettyCols/articles/viewing-palettes.html</loc></url>
+<url><loc>https://nrennie.github.io/PrettyCols/authors.html</loc></url>
+<url><loc>https://nrennie.github.io/PrettyCols/index.html</loc></url>
+<url><loc>https://nrennie.github.io/PrettyCols/news/index.html</loc></url>
+<url><loc>https://nrennie.github.io/PrettyCols/reference/PrettyCols-package.html</loc></url>
+<url><loc>https://nrennie.github.io/PrettyCols/reference/PrettyColsPalettes.html</loc></url>
+<url><loc>https://nrennie.github.io/PrettyCols/reference/colorblind_friendly.html</loc></url>
+<url><loc>https://nrennie.github.io/PrettyCols/reference/colourblind_friendly.html</loc></url>
+<url><loc>https://nrennie.github.io/PrettyCols/reference/index.html</loc></url>
+<url><loc>https://nrennie.github.io/PrettyCols/reference/prettycols.html</loc></url>
+<url><loc>https://nrennie.github.io/PrettyCols/reference/scale_color_pretty_c.html</loc></url>
+<url><loc>https://nrennie.github.io/PrettyCols/reference/scale_color_pretty_d.html</loc></url>
+<url><loc>https://nrennie.github.io/PrettyCols/reference/scale_color_pretty_div.html</loc></url>
+<url><loc>https://nrennie.github.io/PrettyCols/reference/scale_colour_pretty_c.html</loc></url>
+<url><loc>https://nrennie.github.io/PrettyCols/reference/scale_colour_pretty_d.html</loc></url>
+<url><loc>https://nrennie.github.io/PrettyCols/reference/scale_colour_pretty_div.html</loc></url>
+<url><loc>https://nrennie.github.io/PrettyCols/reference/scale_fill_pretty_c.html</loc></url>
+<url><loc>https://nrennie.github.io/PrettyCols/reference/scale_fill_pretty_d.html</loc></url>
+<url><loc>https://nrennie.github.io/PrettyCols/reference/scale_fill_pretty_div.html</loc></url>
+<url><loc>https://nrennie.github.io/PrettyCols/reference/view_all_palettes.html</loc></url>
 </urlset>
+
