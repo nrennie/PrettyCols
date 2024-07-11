@@ -30,7 +30,7 @@ A Python implementation of this package can be found at [github.com/nrennie/Pret
 
 ## Contributor guidelines
 
-If you'd like to contribute to {ggflowchart}, I'd welcome your help. If you're making a PR, please follow the guidelines below, to make the collaboration easier:
+If you'd like to contribute to {PrettyCols}, I'd welcome your help. If you're making a PR, please follow the guidelines below, to make the collaboration easier:
 
 - You have updated the NEWS and version number in DESCRIPTION.
 - You have checked that R CMD check passes with no ERRORs or WARNINGs. If there is a NOTE - please outline what it is in the PR.
