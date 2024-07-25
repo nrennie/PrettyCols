@@ -26,7 +26,11 @@ See [nrennie.rbind.io/PrettyCols](https://nrennie.rbind.io/PrettyCols/) for full
 
 If you have a suggestion of an additional feature, or find a bug, please file an issue on the [GitHub repository](https://github.com/nrennie/ggflowchart/issues).
 
-A Python implementation of this package can be found at [github.com/nrennie/PrettyPyCols](https://github.com/nrennie/PrettyPyCols).
+## Using {PrettyCols} with other software.
+
+* A Python implementation of this package can be found at [github.com/nrennie/PrettyPyCols](https://github.com/nrennie/PrettyPyCols).
+
+* QGIS users can use {PrettyCols} through QGIS Style at [plugins.qgis.org/styles/192](https://plugins.qgis.org/styles/192/). Thanks to [@Heed725](https://github.com/Heed725) for the implementation!
 
 ## Contributor guidelines
 
