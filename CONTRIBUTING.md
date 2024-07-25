@@ -1,3 +1,5 @@
+# CONTRIBUTING
+
 If you'd like to contribute to {PrettyCols}, I'd welcome your help. If you're making a PR, please follow the guidelines below, to make the collaboration easier:
 
 - You have updated the NEWS and version number in DESCRIPTION.
