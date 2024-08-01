@@ -1,8 +1,8 @@
-#' Complete list of palettes.
-#'
-#' Use names(PrettyColsPalettes) to return all palette names.
-#'
-#' @export
+# " Complete list of palettes.
+# "
+# " Use names(PrettyColsPalettes) to return all palette names.
+# "
+# " @export
 PrettyColsPalettes <- list(
   # sequential palettes
   Blues = list(
@@ -126,7 +126,7 @@ PrettyColsPalettes <- list(
     "div",
     TRUE
   ),
-  # qualitative palettes
+  # 5 qualitative colours
   Bold = list(
     c("#6497b1", "#6a359c", "#FFB04F", "#679c35", "#cd1076"),
     c(1, 2, 3, 4, 5),
@@ -217,15 +217,38 @@ PrettyColsPalettes <- list(
     "qual",
     FALSE
   ),
+  # 6 qualitative colours
   Neon = list(
     c("#ff9062", "#fd6598", "#cb64c0", "#3294dd", "#75fb8a", "#d0eb60"),
     c(1, 2, 3, 4, 5, 6),
     "qual",
     FALSE
   ),
-  Celestial = list(
-    c('#A053A1', '#DB778F', '#E69F52', '#09A39A', '#5869C7', '#004B67'),
+  Oasis = list(
+    c("#AE8A1E", "#0C3A61", "#D60CB6", "#09CED0", "#4D08C5", "#F760BD"),
     c(1, 2, 3, 4, 5, 6),
+    "qual",
+    FALSE
+  ),
+  Celestial = list(
+    c("#A053A1", "#DB778F", "#E69F52", "#09A39A", "#5869C7", "#004B67"),
+    c(1, 2, 3, 4, 5, 6),
+    "qual",
+    FALSE
+  ),
+  Aurora = list(
+    c("#53113F", "#6C1A41", "#ABEF07", "#059C59", "#295542", "#5C8797"),
+    c(1, 2, 3, 4, 5, 6),
+    "qual",
+    FALSE
+  ),
+  # 12 qualitative colours
+  Spring = list(
+    c(
+      "#AFF595", "#E88FBF", "#88E297", "#86D1FD", "#BDE0F0", "#DCFA98",
+      "#F4FFC7", "#E2A38A", "#DE879C", "#BCE19D", "#E5C171", "#A4D0AE"
+    ),
+    c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12),
     "qual",
     FALSE
   ),
@@ -264,16 +287,14 @@ PrettyColsPalettes <- list(
     c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12),
     "qual",
     FALSE
+  ),
+  Velvet = list(
+    c(
+      "#090B3C", "#7154A3", "#28125D", "#2A14BE", "#5D649E", "#1A175A",
+      "#1D5A86", "#03487F", "#056B94", "#6D1877", "#890E5C", "#191314"
+    ),
+    c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12),
+    "qual",
+    FALSE
   )
 )
-
-
-
-
-
-
-
-
-
-
-
