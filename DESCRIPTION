@@ -1,6 +1,6 @@
 Package: PrettyCols
 Title: Pretty Colour Palettes
-Version: 1.1.0.9000
+Version: 1.1.0.9001
 Authors@R: 
     person(given = "Nicola",
            family = "Rennie",

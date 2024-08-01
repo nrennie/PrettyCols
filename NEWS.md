@@ -2,6 +2,7 @@
 
 * Reformat `NEWS.md`
 * Fix bug in duplicate names
+* Add palettes
 
 # PrettyCols 1.1.0
 
