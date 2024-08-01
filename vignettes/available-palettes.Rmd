@@ -2,7 +2,7 @@
 title: "Available Palettes"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{available-palettes}
+  %\VignetteIndexEntry{Available Palettes}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
