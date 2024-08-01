@@ -2,7 +2,7 @@
 title: "Using with {ggplot2}"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{using-with-ggplot2}
+  %\VignetteIndexEntry{Using with {ggplot2}}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---

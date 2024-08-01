@@ -1,8 +1,8 @@
-# " Complete list of palettes.
-# "
-# " Use names(PrettyColsPalettes) to return all palette names.
-# "
-# " @export
+#' Complete list of palettes.
+#'
+#' Use names(PrettyColsPalettes) to return all palette names.
+#'
+#' @export
 PrettyColsPalettes <- list(
   # sequential palettes
   Blues = list(

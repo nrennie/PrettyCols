@@ -2,7 +2,7 @@
 title: "Colourblind Friendly Palettes"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{colourblind-friendly-palettes}
+  %\VignetteIndexEntry{Colourblind Friendly Palettes}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
