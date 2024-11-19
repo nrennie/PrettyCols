@@ -3,6 +3,7 @@
 * Reformat `NEWS.md`
 * Fix bug in duplicate names
 * Add palettes
+* Update seasonal palettes
 
 # PrettyCols 1.1.0
 
