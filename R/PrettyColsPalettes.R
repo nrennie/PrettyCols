@@ -217,6 +217,12 @@ PrettyColsPalettes <- list(
     "qual",
     FALSE
   ),
+  Prism = list(
+    c("#D97E80", "#F5E466", "#FDFFFC", "#B1CFA3", "#7A9AB7"),
+    c(1, 2, 3, 4, 5),
+    "qual",
+    FALSE
+  ),
   # 6 qualitative colours
   Neon = list(
     c("#ff9062", "#fd6598", "#cb64c0", "#3294dd", "#75fb8a", "#d0eb60"),
