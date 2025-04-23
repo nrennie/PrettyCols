@@ -1,6 +1,6 @@
 Package: PrettyCols
 Title: Pretty Colour Palettes
-Version: 1.1.0.9002
+Version: 1.1.0.9003
 Authors@R: 
     person(given = "Nicola",
            family = "Rennie",
@@ -20,8 +20,10 @@ Imports:
   lifecycle
 Suggests:
   covr,
+  jsonlite,
   knitr,
   markdown,
+  purrr,
   rmarkdown,
   testthat (>= 3.0.0)
 Config/Needs/website: nrennie/nrenniepkgdown

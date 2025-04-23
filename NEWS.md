@@ -4,6 +4,7 @@
 * Fix bug in duplicate names
 * Add palettes
 * Update seasonal palettes
+* Add function to write JSON version
 
 # PrettyCols 1.1.0
 
